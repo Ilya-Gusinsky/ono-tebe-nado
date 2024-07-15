@@ -55,6 +55,10 @@
   padding-left: 124px;
 }
 
+.header__adress:last-child { 
+  padding-top: 4px; 
+  padding-right: 1px; 
+}
 .content {
 margin: auto;
 }
@@ -157,8 +161,6 @@ letter-spacing: normal;
 }
 
 .lots {
-  width: 1052px;
-  height: 692px;
   background-color: white;
   margin-top: 179px;
   margin-left: 25px;
@@ -245,7 +247,6 @@ letter-spacing: normal;
   display: grid;
   grid-template-columns: 334px auto;
   grid-template-rows: 47% 24% auto;
-  height: 595px;
   margin-top: 146px;
   margin-left: 25px;
 }
@@ -297,9 +298,7 @@ letter-spacing: normal;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-items: start;
-  width: 1000px;
-  height: 98px;
-  margin-top: 178px;
+  margin-top: 183px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 88px;
